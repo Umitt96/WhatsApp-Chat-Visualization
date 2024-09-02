@@ -9,7 +9,7 @@ from wordcloud import WordCloud
 
 # [1] Veri aktarma (Import the data)
 Name = input("Listenizdeki kişinin adını giriniz:\n")
-FilePath = f"C:\\Users\\bigfi\\OneDrive\\Belgeler\\wp-chats\\WhatsApp Chat with {Name}.txt"
+FilePath = f"Dosya_yolu\\WhatsApp Chat with {Name}.txt"
 
 with open(FilePath, "r", encoding="utf-8") as file:
     content = file.read()
